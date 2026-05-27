@@ -1,0 +1,19 @@
+name: build
+on:
+  pull_request: {}
+jobs:
+  build:
+    name: Evaluate AI skills
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+      - name: Install Copilot CLI
+        # From https://docs.github.com/en/copilot/how-tos/copilot-cli/set-up-copilot-cli/install-copilot-cli
+        run: curl -fsSL https://gh.io/copilot-install | bash
+      - name: Run Copilot CLI
+        env:
+          COPILOT_GITHUB_TOKEN: ${{ secrets.COPILOT_GITHUB_TOKEN }}
+        run: |
+          echo
