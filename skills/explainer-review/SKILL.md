@@ -27,7 +27,7 @@ Fetch all seven from the network every run. Never rely on memorized copies — g
 | R2 | Web Platform Design Principles | https://www.w3.org/TR/design-principles/ |
 | R3 | Self-Review Questionnaire: Security and Privacy | https://www.w3.org/TR/security-privacy-questionnaire/ |
 | R4 | Ethical Web Principles | https://www.w3.org/TR/ethical-web-principles/ |
-| R5 | Societal Impact Questionnaire (Editor's Draft) | https://w3ctag.github.io/societal-impact-questionnaire/ |
+| R5 | Societal Impact Questionnaire | https://www.w3.org/TR/societal-impact-questionnaire/ |
 | R6 | Accessibility Screener | https://w3ctag.github.io/accessibility-screener/ |
 | R7 | Internationalization Best Practices for Spec Developers | https://www.w3.org/TR/international-specs/ |
 
